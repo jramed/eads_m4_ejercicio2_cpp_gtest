@@ -1,0 +1,4 @@
+*.stackdump
+.cproject
+.project
+.settings

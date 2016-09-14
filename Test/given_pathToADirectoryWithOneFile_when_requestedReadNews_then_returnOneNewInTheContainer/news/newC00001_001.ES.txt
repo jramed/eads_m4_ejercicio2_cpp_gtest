@@ -1,0 +1,2 @@
+titulo1
+cuerpo de Noticia con Entidad como Entidad mas nombrada
