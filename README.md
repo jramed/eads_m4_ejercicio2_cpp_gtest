@@ -14,7 +14,7 @@ cd ..
 Para realizar el test, ejecutar el siguiente comando desde el directorio raíz del proyecto:
 
 ```
-  docker run --rm -v "$PWD":/home/myapp -w /home/myapp jramed/gcc-cmake-gtest170 ./compile_test.sh
+  docker run --rm -v "$PWD":/home/myapp -w /home/myapp/eads_m4_ejercicio2_cpp_gtest jramed/gcc-cmake-gtest170 ./compile_test.sh
 ```
   
 Con este comando se añade el directorio actual, que es la raíz del proyecto, como un volumen al container, y pone ese directorio como el directorio de trabajo. Después ejecuta el script de compilación y se ejecuta el binario y los tests que contine. A parte de monstrarse el resultado de la pruebas en consola tambien se almacena el resultado de las pruebas en el fichero gtestresults.xml dentro del mismo volumen.
